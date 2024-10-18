@@ -1,0 +1,1 @@
+Start-Sleep -Seconds 5; Add-Type -AssemblyName 'System.Windows.Forms'; '<text_to_copy_here>' | ForEach-Object { [System.Windows.Forms.SendKeys]::SendWait($_.ToString()); Start-Sleep -Milliseconds 100 }
